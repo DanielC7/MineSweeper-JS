@@ -249,6 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("YOU WIN!!");
         isGameOver = true;
         stopTimer();
+        break;
       }
     }
   }

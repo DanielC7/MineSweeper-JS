@@ -1,6 +1,7 @@
 .container {
   align-content: center;
   text-align: center;
+  font-family: "Fredoka", sans-serif;
 }
 
 .grid {
@@ -30,7 +31,6 @@
 
 .below-board {
   /* text-align: center; */
-  font-family: "Fredoka", sans-serif;
   font-size: 25px;
 }
 
