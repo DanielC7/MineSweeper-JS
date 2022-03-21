@@ -253,7 +253,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  document.getElementById("resetBtn").onclick = function () {
+  document.getElementsByClassName("resetBtn")[0].onclick = function () {
     restartGame();
   };
 
