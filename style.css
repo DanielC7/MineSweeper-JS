@@ -1,0 +1,78 @@
+.container {
+  align-content: center;
+  text-align: center;
+}
+
+.grid {
+  height: 800px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.grid div {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: larger;
+}
+
+.bomb:active {
+  background-color: red;
+}
+
+.below-board {
+  /* text-align: center; */
+}
+
+#tLabel {
+  font-size: 30px;
+}
+
+#fLabel {
+}
+
+#resetBtn {
+  height: 40px;
+  width: 80px;
+}
+
+.valid {
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+}
+
+.checked {
+  border: 2px solid;
+  background-color: #cecab7;
+  border-color: #9c998d;
+}
+
+.bomb {
+  background-color: orange;
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+}
+
+.one {
+  color: blue;
+}
+
+.two {
+  color: green;
+}
+
+.three {
+  color: red;
+}
+
+.four {
+  color: purple;
+}
