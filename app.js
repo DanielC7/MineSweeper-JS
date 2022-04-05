@@ -273,3 +273,25 @@ document.addEventListener("DOMContentLoaded", () => {
     createBoard();
   }
 });
+
+function check(text) {
+  let stack = [];
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] == "(") {
+      //add to stack
+      stack.push("(");
+    } else if (text[i] == ")") {
+      //remove '(' from stack
+      if (stack[0] == null) {
+        return false;
+      } else {
+        stack.pop();
+      }
+    }
+  }
+  console.log("test");
+  if (stack[0] == null) {
+    return true;
+  }
+  return false;
+}
